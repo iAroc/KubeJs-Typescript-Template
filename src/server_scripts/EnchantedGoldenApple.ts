@@ -1,5 +1,7 @@
+import { $RecipesKubeEvent } from 'dev.latvian.mods.kubejs.recipe.RecipesKubeEvent';
+
 namespace EnchantedGoldenApple {
-    export function ServerEventsRecipes(event: $RecipesKubeEvent_): void {
+    export function ServerEventsRecipes(event: $RecipesKubeEvent): void {
         event.shaped(
             // arg 1: output item
             Item.of('minecraft:enchanted_golden_apple', 3),
