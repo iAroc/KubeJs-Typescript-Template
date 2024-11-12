@@ -1,0 +1,26 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": "explicit"
+        },
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+        "editor.formatOnPaste": false,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file",
+        "editor.formatOnType": false,
+        "eslint.codeActionsOnSave.rules": [
+            "!no-useless-return*",
+            "*"
+        ],
+        "eslint.format.enable": true,
+        "eslint.workingDirectories": [
+            "."
+        ],
+        "files.autoSave": "onFocusChange",
+    }
+}

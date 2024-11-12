@@ -1,0 +1,69 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "npm",
+            "script": "watch::client",
+            "label": "Watch Client",
+            "group": "none",
+            "presentation": {
+                "reveal": "never",
+                "panel": "dedicated",
+                "focus": false,
+                "echo": false,
+            },
+            "runOptions": {
+                "runOn": "folderOpen"
+            },
+            "isBackground": true,
+        },
+        {
+            "type": "npm",
+            "script": "watch::server",
+            "label": "Watch Server",
+            "group": "none",
+            "presentation": {
+                "reveal": "never",
+                "panel": "dedicated",
+                "focus": false,
+                "echo": false,
+            },
+            "runOptions": {
+                "runOn": "folderOpen"
+            },
+            "isBackground": true,
+        },
+        {
+            "type": "npm",
+            "script": "watch::startup",
+            "label": "Watch Startup",
+            "group": "none",
+            "presentation": {
+                "reveal": "never",
+                "panel": "dedicated",
+                "focus": false,
+                "echo": false,
+            },
+            "runOptions": {
+                "runOn": "folderOpen"
+            },
+            "isBackground": true,
+        },
+        {
+            "type": "npm",
+            "script": "fixOutputJS",
+            "label": "Fix Output JS",
+            "group": "none",
+            "presentation": {
+                "reveal": "never",
+                "panel": "dedicated",
+                "focus": false,
+                "echo": false,
+            },
+            "runOptions": {
+                "runOn": "folderOpen"
+            },
+            "isBackground": true,
+        }
+    ]
+}
